@@ -1,5 +1,5 @@
 {
-  "name": "@dalongrong/mymysql-driver",
+  "name": "@dalongrong/mymysql-cubejs-driver",
   "description": "Cube.js Mysql database driver",
   "author": "rongfengliang",
   "version": "1.0.0",

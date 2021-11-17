@@ -64,4 +64,4 @@ class MysqlQuery extends BaseQuery {
         return name;
     }
 }
-exports.MysqlQuery = MysqlQuery;
+module.exports = MysqlQuery;

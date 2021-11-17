@@ -288,4 +288,4 @@ class MySqlDriver extends BaseDriver {
             super.toGenericType(columnType);
     }
 }
-exports.MySqlDriver = MySqlDriver;
+module.exports = MySqlDriver;
