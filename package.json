@@ -2,7 +2,7 @@
   "name": "@dalongrong/mymysql-cubejs-driver",
   "description": "Cube.js Mysql database driver",
   "author": "rongfengliang",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/rongfengliang/cubejs-mymysql-driver.git"
@@ -20,7 +20,6 @@
   "dependencies": {
     "@cubejs-backend/query-orchestrator": "^0.28.56",
     "@cubejs-backend/schema-compiler": "^0.28.56",
-    "@types/mysql": "^2.15.19",
     "generic-pool": "^3.8.2",
     "mysql": "^2.18.1"
   },
