@@ -1,0 +1,31 @@
+{
+  "name": "@dalongrong/mymysql-driver",
+  "description": "Cube.js Mysql database driver",
+  "author": "rongfengliang",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rongfengliang/cubejs-mymysql-driver.git"
+  },
+  "engines": {
+    "node": ">=10.8.0"
+  },
+  "files": [
+    "dist/src"
+  ],
+  "main": "dist/src/index.js",
+  "scripts": {
+    "p": "yarn publish --access public"
+  },
+  "dependencies": {
+    "@cubejs-backend/query-orchestrator": "^0.28.56",
+    "@cubejs-backend/schema-compiler": "^0.28.56",
+    "@types/mysql": "^2.15.19",
+    "generic-pool": "^3.8.2",
+    "mysql": "^2.18.1"
+  },
+  "license": "Apache-2.0",
+  "publishConfig": {
+    "access": "public"
+  }
+}
